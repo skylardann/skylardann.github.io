@@ -194,18 +194,7 @@ h4 {
 .about  {
   background-color:#FFFFFF;
   box-shadow: 10px 10px 10px #888887;
-  padding-right: 50px;
-  padding-bottom: 50px;
-  font-size: 14px;
-  padding-left: 50px;
-  margin-top: 10px;
-  padding-top: 20px;
-  /*position: absolute;*/
-  top: 450px;
-  left: 750px;
-  z-index: 100;
-  max-width: 550px;
-  max-height: 550px;
+
 
   opacity: 1;
   transition: all 1s;
