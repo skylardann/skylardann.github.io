@@ -9,7 +9,7 @@ $(document).ready(function() {
   $("#photoslanding").addClass("photoslanding");
 
   $("#about").addClass("about");
-  
+
   $("#headline").addClass("headline");
 
 $("nav a").on("clicked", function () {
@@ -26,24 +26,24 @@ $("nav a").on("clicked", function () {
     var width = $('.leftbottom').css('width');
     // console.log(width);
 
-    if (scrolledPosition >= 0 && scrolledPosition < 446 && width !== '250px') {
+    if (scrolledPosition >= 0 && scrolledPosition < 446 && width !== '150px') {
 
       $("#infotab").html("Welcome to my site ...");
 
 
 
       $(".leftbottom").animate({
-        width: "250px"
+        width: "150px"
       }, 100);
 
     }
 
-    else if (scrolledPosition >= 447 && scrolledPosition < 1246 && width !== '150px') {
+    else if (scrolledPosition >= 447 && scrolledPosition < 1246 && width !== '100px') {
 
       $("#infotab").html("My Skills");
 
       $(".leftbottom").animate({
-        width: "150px"
+        width: "100px"
       }, 100);
 
     }

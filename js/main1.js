@@ -1,25 +1,5 @@
 $(document).ready(function() {
 
-  console.log('i am ready');
-
-  $("#logo").addClass("logo");
-
-  $("#dropShadow").addClass("dropShadow");
-
-  $("#photoslanding").addClass("photoslanding");
-
-  $("#about").addClass("about");
-  
-  $("#headline").addClass("headline");
-
-$("nav a").on("clicked", function () {
-
-    $("nav a").removeClass("active");
-    $(this).addClass("active");
-
-});
-
-
   $(window).on("scroll", function() {
 
     var scrolledPosition = $(window).scrollTop();
@@ -38,12 +18,12 @@ $("nav a").on("clicked", function () {
 
     }
 
-    else if (scrolledPosition >= 447 && scrolledPosition < 1246 && width !== '150px') {
+    else if (scrolledPosition >= 447 && scrolledPosition < 1246 && width !== '200px') {
 
       $("#infotab").html("My Skills");
 
       $(".leftbottom").animate({
-        width: "150px"
+        width: "200px"
       }, 100);
 
     }
