@@ -14,25 +14,13 @@ img {
 
 header {
 
-position: fixed;
-width: 100%;;
-height: 50PX;
-z-index: 10;
-text-decoration: none;
+width: 50%
 
 }
 
 nav  {
 
-  background-color:#2E2E2E;
-  text-align: right;
-  text-decoration: none;
-  font-size: 18px;
-  font:'Raleway', sans-serif;
-  letter-spacing: 2px;
-  height: 50PX;
-  padding-top: 15px;
-  padding-right: 50px;
+width: 50%;
 
 
 }
@@ -58,58 +46,40 @@ nav a {
 }
 
 .leftsidenav {
-  width: 40px;
-  height: 400px;
-  background-color: black;
+
+width: 50%
+
 }
 
 .leftbottom {
 
-  width: 280px;
-  height: 60px;
-  background-color: black;
-  position: absolute;
-  z-index: 120;
-  left: 0px;
-  top: 200;
+width: 50%
 
 }
 
 
 .rightnavbar {
 
-  width: 40px;
-  height: 650px;
-  background-color: black;
-  position: absolute;
-  right: 0;
-  top: 0;
-  z-index: -10;
+width: 50%
 
 }
 
 
 nav a {
-    color: white;
-    text-decoration: none;
-    font-size: 14px;
-    justify-content: space-between;
+
+width: 50%
 
 }
 
 h1 {
+
   font-size: 42px;
 
 
 }
 
 h2 {
-  letter-spacing: 1px;
-  font-style: normal;
-  font-size: 20px;
-  padding-left: 20px;
-  margin-top: 25px;
-  padding-top: 20px;
+width: 50%
 
 }
 
@@ -525,7 +495,7 @@ text-align: center;
   left: 0;
   right: 0;
   width: 400px;
-  height: 300px;
+  height: 340px;
   padding: 30px 30px 30px 30px;
   margin-top: 10px;
   margin-right: 10px;
@@ -535,7 +505,7 @@ text-align: center;
 }
 
 .containers:hover .overlay {
-  opacity: .5;
+  opacity: .7;
 }
 
 .text {
@@ -543,7 +513,7 @@ text-align: center;
   color: black;
   font-size: 24px;
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -562,6 +532,9 @@ text-align: center;
 
   text-align: center;
   color: black;
+
+
+
 }
 
 
@@ -1202,8 +1175,8 @@ padding-bottom: 40px;
   padding-top: 60px;
   padding-bottom: 60px;
   margin-top: 40px;
-  margin-bottom: 120px;
-  box-shadow: 50px 50px 1px grey;
+  margin-bottom: 20px;
+  box-shadow: 50px 50px 1px white;
   max-width: 900px;
   max-width: 900px;
 
@@ -1214,7 +1187,7 @@ padding-bottom: 40px;
 
   margin-left: 100px;
   right: 400px;
-  color: black;
+  color: white;
   max-width: 900px;
   max-width: 900px;
 
@@ -1224,7 +1197,7 @@ padding-bottom: 40px;
 
 .backgroundcolor {
 
-  background-color: white;
+  background-color: #3C3C3C;
 }
 
 
@@ -1247,7 +1220,6 @@ padding-bottom: 40px;
 	color: white;
 	text-align: center;
 	background-color: #003B6D;
-  padding-top: 30px;
 }
 
 .social-links a {
@@ -1271,46 +1243,34 @@ footer p {
 }
 
 
+@media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
 
 
 
-
-
-
-
-
-
-
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-
-
-  .skils {
-
-    width: 50%;
+  div {
+    width: 400px;
   }
 
-
-  .wrapingit  {
-  width: 50%;
-  height: 10%;
-
+  div {
+    background-image: url(media-queries-phone.jpg);
+    height: 93px;
+    position: relative;
   }
 
-  .navbarwrap {
-
-    width: 50%;
-    height: 10%;
-
-
-  }
-  header {
-      width: 50%;
+  div h1 {
+    font-size: 140%;
   }
 
-  .rightnavbar {
-height: 10%;
-  width: 10%;
-
+  nav {
+    float: none;
+    width: 100%;
   }
 
+  div {
+    float:none;
+    width: auto;
+  }
+}
+
+	}
 }

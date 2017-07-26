@@ -9,10 +9,10 @@ $(document).ready(function() {
   $("#photoslanding").addClass("photoslanding");
 
   $("#about").addClass("about");
-  
+
   $("#headline").addClass("headline");
 
-$("nav a").on("clicked", function () {
+  $("nav a").on("clicked", function () {
 
     $("nav a").removeClass("active");
     $(this).addClass("active");
