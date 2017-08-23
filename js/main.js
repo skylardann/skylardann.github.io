@@ -30,8 +30,6 @@ $(document).ready(function() {
 
       $("#infotab").html("Welcome to my site ...");
 
-
-
       $(".leftbottom").animate({
         width: "250px"
       }, 100);
