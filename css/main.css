@@ -32,11 +32,11 @@ nav  {
   background-color:#2E2E2E;
   text-align: right;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 16px;
   font:'Raleway', sans-serif;
   letter-spacing: 2px;
   height: 50PX;
-  padding-top: 15px;
+  padding-top: 18px;
   padding-right: 40px;
 
 
@@ -76,12 +76,12 @@ nav a {
 .leftbottom {
 
   width: 280px;
-  height: 60px;
+  height: 50px;
   background-color: black;
   position: absolute;
   z-index: 120;
   left: 0px;
-  top: 390px;
+  top: 400px;
 
 }
 
@@ -150,7 +150,7 @@ h4 {
   font-size: 14px;
   position: absolute;
   left: 40px;
-  top: 25px;
+  top: 18px;
   z-index: 400px;
   color: white;
   width: 100%;
@@ -178,7 +178,7 @@ h4 {
   font-size: 18px;
   position: absolute;
   left: 120px;
-  top: 120px;
+  top: 100px;
   z-index: 100px;
   transition: all 1s;
   opacity: 0;
@@ -190,8 +190,8 @@ h4 {
 
   font-size: 18px;
   position: absolute;
-  left: 620px;
-  top: 150px;
+  left: 590px;
+  top: 100px;
   z-index: 100px;
   opacity:1 ;
   transition: all 1s;
@@ -224,12 +224,11 @@ h4 {
   margin-top: 10px;
   padding-top: 20px;
   position: absolute;
-  top: 450px;
+  top: 430px;
   left: 720px;
   z-index: -10;
   max-width: 550px;
   max-height: 550px;
-
   opacity: 1;
   transition: all 1s;
 
@@ -242,21 +241,21 @@ h4 {
   position: absolute;
   left: 50px;
   z-index: -10;
-  max-width: 450px;
-  max-height: 450px;
   transition: all 1s;
 }
 
 
  .logo {
-  top: -200px;
-  opacity: 1;
+  top: -250px;
+  opacity: .71;
   transition: all 1s;
+  max-width: 550px;
+  max-height: 550px;
 }
 
 
 .dropShadowstart {
-  top: 799px;
+  top: 500px;
   opacity: 0;
   position: absolute;
   left: -650px;
@@ -270,15 +269,16 @@ h4 {
 
 .dropShadow {
 
-   opacity: 1;
-   left: 550px;
-   top: 390px;
-   z-index: 100px;
-   width: 400px;
-   height: 480px;
-   background-color: #292929;
-   box-shadow: 10px 10px 10px #888888;
-   transition: all 2s;
+    position: absolute;
+    opacity: .8;
+    left: 550px;
+    top: 340px;
+    z-index: 100px;
+    width: 350px;
+    height: 480px;
+    background-color: #292929;
+    box-shadow: 10px 10px 10px #888888;
+    transition: all 2s;
 
  }
 
@@ -287,7 +287,7 @@ h4 {
    position: absolute;
    opacity: 0;
    left: 1155px;
-   top: -900px;
+   top: -700px;
    z-index: 100px;
    max-height: 300px;
    max-width: 400px;
@@ -298,10 +298,10 @@ h4 {
 
   opacity: 1;
   position: absolute;
-  left: 355px;
-  top: 290px;
+  left: 345px;
+  top: 240px;
   z-index: 100px;
-  max-height: 300px;
+  max-height: 370px;
   max-width: 400px;
   transition: all 1.4s;
 
@@ -382,7 +382,7 @@ width: 100%;
   position: relative;
   font-size: 12px;
   margin-top: 10px;
-  margin-bottom: 80px;
+  margin-bottom: 60px;
   margin-left: 20px;
   margin-right: 25px;
   width: 400px;
@@ -543,10 +543,8 @@ width: 100%;
   left: 0;
   right: 0;
   width: 400px;
-  height: 350px;
-  padding: 30px 30px 30px 30px;
-  margin-top: 10px;
-  margin-right: 10px;
+  height: 300px;
+  padding: 10px 10px 10px 10px;
   opacity: 0;
   transition: .5s ease;
   background-color: white;
@@ -561,7 +559,7 @@ width: 100%;
   color: black;
   font-size: 24px;
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -731,7 +729,7 @@ width: 100%;
 .DropShadow1 {
   position: absolute;
   left: 250px;
-  top: 310px;
+  top: 100px;
   z-index: 1;
   width: 380px;
   height: 290px;
@@ -1271,6 +1269,26 @@ footer p {
 @media only screen and (min-width : 24px ) and ( max-width : 941px ){
 
 
+
+  /*navigation mobile wraped*/
+
+
+  nav  {
+
+    background-color:#2E2E2E;
+    text-align: right;
+    text-decoration: none;
+    font-size: 10px;
+    font:'Raleway', sans-serif;
+    letter-spacing: 2px;
+    height: 50PX;
+    padding-top: 18px;
+    padding-right: 10px;
+
+
+  }
+
+
   .underline{
 
     display: none;
@@ -1444,4 +1462,13 @@ height: 100%;
 
   }
 
+
+
+
+
+/*proejcts section*/
+
+footer {
+
+  display: none;
 }
