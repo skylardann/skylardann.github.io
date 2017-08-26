@@ -1468,6 +1468,18 @@ a {
 
   }
 
+  .headlinestart {
+
+  display: none;
+  }
+
+
+  .headline {
+
+  display: none;
+
+  }
+
 
 #logo {
 
@@ -1533,6 +1545,11 @@ height: 100%;
   padding-top: 10px;
 
 
+}
+
+.underline1 {
+
+  display: none;
 }
 
 
