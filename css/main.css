@@ -1428,14 +1428,16 @@ height: 100%;
 .Heading1 {
 
   color: white;
-  font-size: 42px;
-  font-style: normal;
+  font-size: 34px;
+  font-style: bold;
   text-align: center;
   margin-top: 20px;
   padding-top: 50px;
+  padding-bottom: 30px;
   background:rgb(39,39,39);
   text-align: center;
   width: 100%;
+  font-style:
 
 
 }
@@ -1450,39 +1452,18 @@ height: 100%;
 
 /*proejcts section*/
 
-.underline1 {
 
-  display: none;
+.projectsWrap {
+
+  font-size: 12px;
+  display:inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+
 }
-  .projectsWrap  {
-    height: 100%;
-    width: 50%;
-
-  }
-  .containers {
-    height: 100%;
-    width: 100%;
-
-  }
-
-  .Textprojectswrap  {
-    height: 100%;
-    width: 100%;
-
-  }
-
-  .headline {
-    display: none;
-
-  }
-
-
-  .underline2 {
-      display: none;
-      position: fixed;
-
-  }
-
 
 /*proejcts section finished for homepage*/
 
