@@ -145,6 +145,7 @@ h4 {
 }
 
 
+/*landing page of site*/
 
 .welcome {
   font-size: 14px;
@@ -175,7 +176,8 @@ h4 {
 
 .headlinestart {
 
-  font-size: 18px;
+  font-size: 32px;
+  font-weight: bold;
   position: absolute;
   left: 120px;
   top: 100px;
@@ -188,10 +190,10 @@ h4 {
 
 .headline {
 
-  font-size: 18px;
+  font-size: 32px;
   position: absolute;
   left: 590px;
-  top: 100px;
+  top: 140px;
   z-index: 100px;
   opacity:1 ;
   transition: all 1s;
@@ -1375,7 +1377,7 @@ padding-bottom: 40px;
 	margin-bottom: 5px;
 }
 
-/* If you don't want the footer to be responsive, remove these media queries */
+
 
 @media (max-width: 880px) {
 
@@ -1409,7 +1411,7 @@ padding-bottom: 40px;
     background-color:#2E2E2E;
     text-align: right;
     text-decoration: none;
-    font-size: 10px;
+    font-size: 11px;
     font:'Raleway', sans-serif;
     letter-spacing: 2px;
     height: 50PX;
@@ -1468,89 +1470,169 @@ a {
 
   }
 
+
+  /*hompage resized for mobile use*/
+
+  .welcome {
+    font-size: 12px;
+    position: absolute;
+    left: 40px;
+    top: 18px;
+    z-index: 400px;
+    color: white;
+    width: 50%;
+
+
+  }
+
+
+  .wrapingit  {
+    padding-left: 10px;
+    display:inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: white;
+    margin-bottom: 170px;
+    padding-bottom: 170px;
+    margin-top: 110px;
+    padding-top: 100px;
+
+
+  }
+
   .headlinestart {
 
-  display: none;
+    font-size: 11px;
+    position: absolute;
+    left: 120px;
+    top: 100px;
+    z-index: 100px;
+    transition: all 1s;
+    opacity: 0;
+
   }
 
 
   .headline {
 
-  display: none;
+    font-size: 11px;
+    position: absolute;
+    left: 590px;
+    top: 100px;
+    z-index: 100px;
+    opacity:1 ;
+    transition: all 1s;
+    padding: 20px 20px 20px 20px;
+    box-shadow: 10px 10px 10px #888887;
 
   }
 
 
-#logo {
+  .aboutstart {
+    background-color: #FFFFFF;
+    top: -920;
+    left: -1250px;
+    opacity: 0;
+    position: absolute;
+    z-index: -10;
+    max-width: 450px;
+    max-height: 450px;
+    transition: all 1s;
 
-  position:absolute;
-  top: 100px;
-  height: 90%;
-  width: 90%;
+  }
 
-}
+  .about  {
+    background-color:#FFFFFF;
+    box-shadow: 10px 10px 100px #888887;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    font-size: 14px;
+    padding-left: 50px;
+    margin-top: 10px;
+    padding-top: 20px;
+    position: absolute;
+    top: 430px;
+    left: 720px;
+    z-index: -10;
+    max-width: 250px;
+    max-height: 250px;
+    opacity: 1;
+    transition: all 1s;
 
-.logostart {
+  }
 
-  top: 100px;
-  opacity: 0;
-  position: absolute;
-  left: 50px;
-  z-index: -10;
-  max-width: 150px;
-  max-height: 150px;
-  transition: all 1s;
-}
+  .logostart {
 
-
-.photoslanding {
-
-  display: none;
-}
-img {
-
-height: 100%;
-
-}
-
-
-.dropShadow {
-
-  display: none;
-
-}
-
-.dropShadowstart {
-
-  display: none;
-}
-
-.about {
-
-  display: none;
-}
+    top: -900px;
+    opacity: 0;
+    position: absolute;
+    left: -6px;
+    z-index: -10;
+    transition: all 1s;
+  }
 
 
-
-.wrapingit{
-
-  padding-left: 10px;
-  display:inline-flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  background-color: white;
-  margin-bottom: 1px;
-  padding-bottom: 10px;
-  margin-top: 20px;
-  padding-top: 10px;
+   .logo {
+    top: -80px;
+    opacity: .71;
+    transition: all 1s;
+    max-width: 210px;
+    max-height: 210px;
+  }
 
 
-}
+  .dropShadowstart {
+    top: 500px;
+    opacity: 0;
+    position: absolute;
+    left: -650px;
+    z-index: -10;
+    max-width: 250px;
+    max-height: 250px;
+    transition: all 1.9s;
+    box-shadow: 0 0 0;
+  }
 
-.underline1 {
 
-  display: none;
-}
+  .dropShadow {
+
+      position: absolute;
+      opacity: .8;
+      left: 550px;
+      top: 340px;
+      z-index: 100px;
+      width: 250px;
+      height: 280px;
+      background-color: #292929;
+      box-shadow: 10px 10px 10px #888888;
+      transition: all 2s;
+
+   }
+
+   .photoslandingstart {
+
+     position: absolute;
+     opacity: 0;
+     left: 1155px;
+     top: -700px;
+     z-index: 100px;
+     max-height: 600px;
+     max-width: 600px;
+
+   }
+
+  .photoslanding {
+
+    opacity: 1;
+    position: absolute;
+    left: 125px;
+    top: 180px;
+    z-index: 100px;
+    width: 40%;
+    height: 40%;
+    transition: all 1.4s;
+
+  }
 
 
 /*skils sections*/
