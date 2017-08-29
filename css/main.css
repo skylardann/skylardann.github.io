@@ -114,6 +114,7 @@ h1 {
   font-size: 32px;
 
 
+
 }
 
 h2 {
@@ -1095,7 +1096,7 @@ input[type=submit]:hover {
 
 .photoswapper {
 
-  padding: .4vw;
+  padding: .6vw;
   font-size: 0;
   display: -ms-flexbox;
   -ms-flex-wrap: wrap;
@@ -1104,8 +1105,8 @@ input[type=submit]:hover {
   flex-flow: row wrap;
   display: -webkit-box;
   display: flex;
-  margin-left: 40px;
-  margin-right: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
 
 
 }
@@ -1116,7 +1117,7 @@ input[type=submit]:hover {
    -ms-flex: auto;
    flex: auto;
    width: 400px;
-   margin: .2vw;
+   margin: .012vw;
    padding: 3px 3px 3px 3px;
 
 
@@ -1136,7 +1137,7 @@ input[type=submit]:hover {
   display: inline-flex;
   left: 100px;
   margin-left: 600px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   padding-left: 250px;
   padding-bottom: 10px;
   background-color: #84C7FF;
@@ -1422,7 +1423,8 @@ padding-bottom: 40px;
     letter-spacing: 2px;
     height: 50PX;
     padding-top: 18px;
-    padding-right: 10px;
+    padding-right: 20px;
+    font-weight: bold;
 
 
   }
@@ -2121,8 +2123,8 @@ display: none;
     display: inline-block;
     padding-top: 180px;
     margin-bottom: 250px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 1px;
+    padding-right: 20px;
     margin-left: 10px;
     width: 400px;
     height: 400px;
