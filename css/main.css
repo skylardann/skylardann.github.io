@@ -1404,7 +1404,7 @@ padding-bottom: 40px;
 }
 
 
-@media only screen and (min-width : 24px ) and ( max-width : 941px ){
+@media only screen and (min-width : 24px ) and ( max-width : 750px ){
 
 
 /*navigation mobile wraped*/
@@ -1520,7 +1520,7 @@ a {
 
     font-size: 12px;
     position: absolute;
-    left: 160px;
+    left: 150px;
     top: 89px;
     z-index: 100px;
     opacity:1 ;
@@ -1679,6 +1679,20 @@ a {
 }
 
 
+.skils {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display:inline-block;
+  flex-wrap: wrap;
+  background:rgb(39,39,39);
+  color: white;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+
+
 
 
 
@@ -1696,6 +1710,8 @@ a {
   height: 400px;
   margin-top: 50px;
   margin-bottom: 100px;
+
+
 }
 
 
@@ -1856,7 +1872,7 @@ a {
 .image {
   display: inline-flex;
   object-fit: cover;
-  width: 590px;
+  width: 100%;
   height: 240px;
 }
 
