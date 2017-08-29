@@ -20,6 +20,7 @@ $(document).ready(function() {
 });
 
 
+
   $(window).on("scroll", function() {
 
     var scrolledPosition = $(window).scrollTop();

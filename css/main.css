@@ -4,7 +4,8 @@
 /* Fix to include padding and border in the total width for each element */
 * {
     box-sizing: border-box;
-    font-family: 'Raleway', sans-serif;
+      font-family: 'Roboto', sans-serif;
+
 
 }
 
@@ -38,21 +39,21 @@ nav  {
   font:'Raleway', sans-serif;
   letter-spacing: 2px;
   height: 50PX;
-  padding-top: 18px;
+  padding-top: 16px;
   padding-right: 40px;
 
 }
 
 
 nav a.active {
-    background-color: blue;
+    background-color: #84C7FF;
     color: white;
 }
 
-nav a:hover, .active {
+nav a:hover:not(.active){
 
-    padding:20px 15px 15px 15px;
-    background-color: blue;
+    padding:20px 20px 13px 15px;
+    background-color: #84C7FF;
     color: white;
 }
 
@@ -152,7 +153,7 @@ h4 {
   font-size: 14px;
   position: absolute;
   left: 40px;
-  top: 18px;
+  top: 17px;
   z-index: 400px;
   color: white;
   width: 100%;
@@ -194,11 +195,11 @@ h4 {
   font-size: 32px;
   position: absolute;
   left: 590px;
-  top: 140px;
+  top: 100px;
   z-index: 100px;
   opacity:1 ;
   transition: all 1s;
-  padding: 20px 20px 20px 20px;
+  padding: 40px 40px 40px 40px;
   box-shadow: 10px 10px 10px #888887;
 
 }
@@ -251,11 +252,13 @@ h4 {
 
 
  .logo {
-  top: -250px;
+   position: absolute;
+  top: -160px;
+  left: 30px;
   opacity: .71;
   transition: all 1s;
-  max-width: 550px;
-  max-height: 550px;
+  width: 380px;
+  height: 400px;
 }
 
 
@@ -276,11 +279,11 @@ h4 {
 
     position: absolute;
     opacity: .8;
-    left: 550px;
-    top: 340px;
+    left: 520px;
+    top: 350px;
     z-index: 100px;
-    width: 350px;
-    height: 480px;
+    width: 340px;
+    height: 400px;
     background-color: #292929;
     box-shadow: 10px 10px 10px #888888;
     transition: all 2s;
@@ -306,8 +309,8 @@ h4 {
   left: 345px;
   top: 240px;
   z-index: 100px;
-  max-height: 370px;
-  max-width: 400px;
+  height: 25%;
+  width: 26%;
   transition: all 1.4s;
 
 }
@@ -412,7 +415,7 @@ width: 100%;
 
   position: absolute;
   top: 290px;
-  left: 130px;
+  left: 140px;
   width: 40%;
 
 }
@@ -422,7 +425,7 @@ width: 100%;
 
   position: absolute;
   top: 290px;
-  right: -30px;
+  right: -60px;
   width: 100%;
 
 }
@@ -433,7 +436,7 @@ width: 100%;
 
   position: absolute;
   top: 300px;
-  left: 60px;
+  left: 70px;
   width: 100%;
 
 }
@@ -443,7 +446,7 @@ width: 100%;
 
   position: absolute;
   top: 300px;
-  left: 70px;
+  left: 90px;
   width: 100%;
 
 }
@@ -454,7 +457,7 @@ width: 100%;
 
   position: absolute;
   top: 300px;
-  left: 60px;
+  left: 72px;
   width: 100%;
 }
 
@@ -576,7 +579,7 @@ width: 100%;
   display:inline-flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-bottom: 20px;
+  margin-bottom: 60px;
   margin-left: 30px;
   margin-right: 30px;
 
@@ -830,7 +833,7 @@ padding-right: 20px;
 
 
 .contactfotterhead {
-  padding-top: 860px;
+  padding-top: 890px;
 
 }
 
@@ -1025,16 +1028,15 @@ input[type=submit]:hover {
 }
 
 
-/*resumeabout*/
+/*resume/about  page of the site*/
 
 
 
 .headingAbout  {
 
-  line-height: 25px;
-  font-weight: bold;
+  line-height: 40px;
   font-size: 28px;
-  color: white;
+  font-weight: 900;
   position: absolute;
   left: 80px;
   top: 90px;
@@ -1084,7 +1086,7 @@ input[type=submit]:hover {
 
   display: inline;
   padding-bottom: 10px;
-  margin-bottom: 80px;
+  margin-bottom: 10px;
   object-fit: cover;
 
 
@@ -1144,13 +1146,13 @@ input[type=submit]:hover {
 
 .bigwrap {
 
-  padding-bottom: 100px;
+  padding-bottom: 50px;
   padding-top: 50px;
   background-color: black;
 }
 
 
-/*project1*/
+/*project1 page for moderna farms */
 
 .headingproject1 {
 
@@ -1242,7 +1244,7 @@ padding-bottom: 40px;
 	font: bold 16px sans-serif;
 
 	padding: 55px 50px;
-	margin-top: 80px;
+	margin-top: 0px;
 }
 
 .footer-distributed .footer-left,
@@ -1308,7 +1310,7 @@ padding-bottom: 40px;
 	border-radius: 50%;
 	text-align: center;
 	line-height: 42px;
-	margin: 10px 15px;
+	margin: 20px 20px 10px;
 	vertical-align: middle;
 }
 
@@ -1329,6 +1331,7 @@ padding-bottom: 40px;
 	font-weight: normal;
 	font-size:14px;
 	line-height:2;
+
 }
 
 .footer-distributed .footer-center p a{
@@ -2079,4 +2082,127 @@ display: none;
 .contactfotterhead {
   padding-top: 700px;
 
+}
+
+
+
+
+
+
+
+
+/*about page of the site addapted for mobile use*/
+
+/*resume/about  page of the site*/
+
+
+
+.headingAbout  {
+
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 20px;
+  padding: 15px 15px 15px 15px;
+  color: white;
+  position: absolute;
+  left: 20px;
+  top: 75px;
+  color: black;
+  z-index:100px;
+  background-color: white;
+  box-shadow: 1px 1px 12px #888888;
+
+
+
+}
+
+.resumeabout {
+
+    display: inline-block;
+    padding-top: 180px;
+    margin-bottom: 250px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+    width: 400px;
+    height: 400px;
+    border: 10PX 10PX 10PX 10PX;
+    border-color: black;
+
+
+}
+
+.imagez {
+
+  display: inline-flex;
+  object-fit: cover;
+  width: 90%;
+  height: 90%;
+  margin-left: 20px;
+
+}
+
+
+/*for the resie*/
+
+.imagezs {
+
+  display: inline;
+  padding-bottom: 10px;
+  margin-bottom: 80px;
+  object-fit: cover;
+
+
+}
+
+
+.photoswapper {
+
+  padding: .5vw;
+  font-size: 0;
+  display: -ms-flexbox;
+  -ms-flex-wrap: wrap;
+  -ms-flex-direction: column;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  display: -webkit-box;
+  display: flex;
+  margin-left: 100px;
+  margin-right: 100px;
+
+
+}
+
+.photos {
+
+  -webkit-box-flex: auto;
+   -ms-flex: auto;
+   flex: auto;
+   width: 400px;
+   margin: .2vw;
+   padding: 3px 3px 3px 3px;
+
+
+}
+
+
+.photographyheading {
+
+    text-align: center;
+    display: inline;
+    color: white;
+    justify-content: space-between;
+
+}
+
+.underline7 {
+display: none;
+
+}
+
+.bigwrap {
+
+  padding-bottom: 10px;
+  padding-top: 50px;
+  background-color: black;
 }
