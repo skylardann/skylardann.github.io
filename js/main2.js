@@ -26,38 +26,18 @@ $("nav a").on("clicked", function () {
     var width = $('.leftbottom').css('width');
     // console.log(width);
 
-    if (scrolledPosition >= 0 && scrolledPosition < 446 && width !== '150px') {
+    if (scrolledPosition >= 900 && scrolledPosition < 9900 && width !== '150px') {
 
       $("#infotab").html("Welcome to my site ...");
 
 
-
       $(".leftbottom").animate({
-        width: "150px"
-      }, 100);
-
-    }
-
-    else if (scrolledPosition >= 447 && scrolledPosition < 1246 && width !== '100px') {
-
-      $("#infotab").html("My Skills");
-
-      $(".leftbottom").animate({
-        width: "100px"
+        width: "0px"
       }, 100);
 
     }
 
 
-    else if (scrolledPosition >= 1247 && scrolledPosition < 4396 && width !== '100px') {
-
-      $("#infotab").html("Projects");
-
-      $(".leftbottom").animate({
-        width: "100px"
-      }, 100);
-
-    }
 
 
   });

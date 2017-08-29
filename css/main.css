@@ -1095,7 +1095,7 @@ input[type=submit]:hover {
 
 .photoswapper {
 
-  padding: .5vw;
+  padding: .4vw;
   font-size: 0;
   display: -ms-flexbox;
   -ms-flex-wrap: wrap;
@@ -1104,8 +1104,8 @@ input[type=submit]:hover {
   flex-flow: row wrap;
   display: -webkit-box;
   display: flex;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 40px;
+  margin-right: 40px;
 
 
 }
@@ -2158,7 +2158,7 @@ display: none;
 
 .photoswapper {
 
-  padding: .5vw;
+  padding: .2vw;
   font-size: 0;
   display: -ms-flexbox;
   -ms-flex-wrap: wrap;
@@ -2167,8 +2167,8 @@ display: none;
   flex-flow: row wrap;
   display: -webkit-box;
   display: flex;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 20px;
+  margin-right: 20px;
 
 
 }
