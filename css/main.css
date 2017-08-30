@@ -1706,7 +1706,286 @@ padding-bottom: 40px;
 
 
 
-@media only screen and (min-width : 400px ) and ( max-width : 790px ) {
+
+/*projects page for 13ich laptop*/
+
+
+.underline3  {
+
+  position: relative;
+  left:530px;
+  top: 130px;
+  width: 195px;
+  height: 8px;
+  background-color: #84C7FF;
+  box-shadow: 1px 1px 1px #888888;
+
+}
+
+
+
+
+/*contact page for 13 inch laptop*/
+
+
+
+
+.contactinfostuff {
+
+  position: absolute;
+  left: 1px;
+  top: 1px;
+}
+
+
+
+.textcontactnav {
+  color: white;
+  font-size: 12px;
+  position: absolute;
+  top: 392px;
+  left: 40px;
+  z-index: 600;
+
+
+}
+
+.image1 {
+
+  position: relative;
+}
+
+.arrow-right {
+  position: absolute;
+  top: 349px;
+  left: 120px;
+  z-index: 600;
+  width: 100;
+  height: 10;
+
+}
+
+
+
+.headingContact {
+
+  font-weight: bold;
+  font-size: 24px;
+  color: white;
+  position: absolute;
+  left: 100px;
+  top: 80px;
+  color: black;
+  z-index:100px;
+  padding-top: 12px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  width: 580px;
+  height: 90px;
+  background-color: white;
+  box-shadow: 1px 1px 12px #888888;
+
+}
+
+.contact {
+
+  position: absolute;
+  left: 340px;
+  top: 240px;
+  z-index: 200;
+  width: 150px;
+  height: 100px;
+
+}
+
+
+.contactchanelshead {
+
+  position: absolute;
+  left: -70px;
+  top: -10px;
+  z-index: 200;
+  width: 250px;
+  height: 100px;
+}
+
+
+
+
+.hitmeup  {
+  position: absolute;
+  left: 10px;
+  top: 95px;
+  z-index: 10;
+  width: 150px;
+  height: 150px;
+  font-size: 18px;
+
+}
+
+.hitmeup1{
+
+  position: absolute;
+  left: 10px;
+  top: 168px;
+  z-index: 10;
+  width: 150px;
+  height: 150px;
+  font-size: 18px;
+
+}
+
+.iconphotos2 {
+
+  position: absolute;
+  left: -50px;
+  top: 160px;
+  z-index: 10;
+  width: 50%;
+  height: 50%;
+}
+
+.iconphotos1  {
+
+  position: absolute;
+  left: -46px;
+  top: 90px;
+  z-index: 10;
+  width: 150px;
+  height: 150px;
+
+}
+
+
+
+.DropShadow1 {
+  position: absolute;
+  left: 240px;
+  top: 240px;
+  z-index: 1;
+  width: 340px;
+  height: 290px;
+  color: white;
+  background-color: white;
+  box-shadow: 1px 1px 1px #888888;
+}
+
+.DropShadow2 {
+  position: absolute;
+  left: 310px;
+  top: 305px;
+  z-index: -10;
+  width: 300px;
+  height: 260px;
+  color: black;
+  background-color: #343434;
+  box-shadow: 1px 1px 1px #888888;
+}
+
+.DropShadow3 {
+
+  position: absolute;
+  left: 60px;
+  top: 80px;
+  z-index: -10;
+  width: 440px;
+  height: 440px;
+  color: white;
+  background-color: #343434;
+  box-shadow: 1px 1px 1px #888888;
+
+}
+
+
+
+
+.contctwarping {
+
+  position: absolute;
+  left: 60px;
+  top: 210px;
+  z-index: -100;
+  width: 1100px;
+  height: 590px;
+  background-color: #F7F7F7;
+  box-shadow: 1px 1px 1px #888888;
+  padding-bottom: 400px;
+  margin-bottom: 400px;
+
+
+}
+
+
+
+.contactforumhead {
+
+margin-right:33px;
+padding-right: 20px;
+
+}
+
+
+
+.container {
+
+  position: absolute;
+  left: 640px;
+  top: 140px;
+  z-index: 100px;
+  width: 460px;
+  height: 490px;
+  border-radius: 1px;
+  background-color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 100px;
+  box-shadow: 1px 1px 1px #888888;
+
+
+}
+
+
+.contactfotterhead {
+  padding-top: 890px;
+
+}
+
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 14px;
+    border: 1.5px solid #84C7FF;
+    border-radius: 1px;
+    box-sizing: border-box;
+    margin-top: 8px;
+    margin-bottom: 11px;
+    resize: vertical;
+    font-size: 12px;
+    color: black;
+}
+
+
+input[type=submit] {
+    background-color: #005094;
+    color: white;
+    margin-top: 5px;
+    padding: 13px 20px;
+    border: none;
+    border-radius: 1px;
+    cursor: pointer;
+    width: 100%;
+}
+
+input[type=submit]:hover {
+    background-color: black;
+    color: white;
+}
+
+
+
+
+@media only screen and (min-width : 400px ) and ( max-width : 680px ) {
 
 
 /*navigation mobile wraped*/
@@ -2271,6 +2550,13 @@ display: none;
 
 /*contactpage for mobilve*/
 
+
+
+.textcontactnav {
+display: none;
+
+}
+
 .contactinfostuff {
 
   position: absolute;
@@ -2290,17 +2576,17 @@ display: none;
 .headingContact {
 
   font-weight: bold;
-  font-size: 16px;
+  font-size: 14px;
   color: white;
   position: absolute;
-  left: 40px;
+  left: 30px;
   top: 80px;
   color: black;
   z-index:100px;
-  padding-top: 17px;
-  padding-left: 30px;
-  width: 400px;
-  height: 90px;
+  padding-top: 15px;
+  padding-left: 20px;
+  width: 330px;
+  height: 70px;
   background-color: white;
   box-shadow: 1px 1px 12px #888888;
 
@@ -2356,10 +2642,10 @@ display: none;
 
 .DropShadow2 {
   position: absolute;
-  left: 320px;
-  top: 305px;
+  left: 300px;
+  top: 300px;
   z-index: -10;
-  width: 340px;
+  width: 310px;
   height: 260px;
   color: black;
   background-color: #343434;
