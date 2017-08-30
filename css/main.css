@@ -1428,6 +1428,25 @@ padding-bottom: 40px;
 
   }
 
+  nav a.active {
+      background-color: #84C7FF;
+      color: white;
+  }
+
+  nav a:hover:not(.active){
+
+      padding:20px 20px 13px 10px;
+      background-color: #84C7FF;
+      color: white;
+  }
+
+
+  nav a {
+
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
 
   .underline{
 
