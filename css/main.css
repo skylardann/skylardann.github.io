@@ -1633,12 +1633,12 @@ a {
   .photoslanding {
 
     opacity: 1;
-    position: fixed;
+    position: absolute;
     left: 80px;
     top: 140px;
     z-index: 100px;
-    width: 35%;
-    height: 30%;
+    width: 140px;
+    height: 160px;
     transition: all 1.4s;
 
   }
