@@ -2028,11 +2028,6 @@ input[type=submit]:hover {
   }
 
 
-  .underline{
-
-    display: none;
-  }
-
   .navbarwrap {
 
     font-size: 2px;
@@ -2243,6 +2238,18 @@ a {
 
 /*skils sections*/
 
+
+.underline   {
+  position: absolute;
+  left: 70px;
+  top: 500px;
+  z-index: 100px;
+  width: 260px;
+  height: 8px;
+  background-color: #84C7FF;
+  box-shadow: 1px 1px 1px #888888;
+
+}
 
 .talent {
 
@@ -2517,7 +2524,7 @@ a {
   justify-content: space-between;
   margin-bottom: 20px;
   margin-left: -8px;
-  margin-right: 20px;
+  margin-right: 5px;
   max-width: 400px;
 
 
@@ -2542,7 +2549,13 @@ a {
 
 .underline1 {
 
-display: none;
+  position: relative;
+  left:100px;
+  top: 100px;
+  width: 195px;
+  height: 8px;
+  background-color: #84C7FF;
+  box-shadow: 1px 1px 1px #888888;
 
 }
 
@@ -2838,8 +2851,8 @@ display: none;
   flex-wrap: wrap;
   justify-content: space-between;
   margin-bottom: 20px;
-  padding-right: 20px;
-  width: 380px;
+  padding-right: 10px;
+  width: 400px;
 
 
 
