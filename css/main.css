@@ -1406,6 +1406,180 @@ padding-bottom: 40px;
 }
 
 
+/*breakpoint for 13 inch computers*/
+
+
+@media only screen and (max-width: 1256px) {
+
+
+  .welcome {
+    font-size: 14px;
+    position: absolute;
+    left: 40px;
+    top: 17px;
+    z-index: 400px;
+    color: white;
+    width: 80%;
+
+
+  }
+
+
+  .wrapingit  {
+    padding-left: 10px;
+    display:inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: white;
+    margin-bottom: 170px;
+    padding-bottom: 170px;
+    margin-top: 200px;
+    padding-top: 200px;
+
+
+  }
+
+  .headlinestart {
+
+    font-size: 24px;
+    font-weight: bold;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    z-index: 100px;
+    transition: all 1s;
+    opacity: 0;
+
+
+  }
+
+
+  .headline {
+
+    font-size: 24px;
+    position: absolute;
+    left: 560px;
+    top: 130px;
+    width: 45%;
+    z-index: 100px;
+    opacity:1 ;
+    transition: all 1s;
+    padding: 30px 30px 30px 30px;
+    box-shadow: 10px 10px 10px #888887;
+
+  }
+
+
+  .aboutstart {
+    background-color: #FFFFFF;
+    top: -920;
+    left: -1250px;
+    opacity: 0;
+    position: absolute;
+    z-index: -10;
+    max-width: 100%;
+    max-height: 100%;
+    transition: all 1s;
+    font-size: 24px;
+    font-weight: 600;
+
+  }
+
+  .about  {
+
+    position: absolute;
+    top: 380px;
+    left: 650px;
+    z-index: -10;
+    width: 35%;
+    height: 15%;
+    opacity: 1;
+    transition: all 1s;
+    background-color:#FFFFFF;
+    box-shadow: 10px 10px 100px #888887;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    font-size: 20px;
+    padding-left: 40px;
+    margin-top: 20px;
+    padding-top: 30px;
+
+  }
+
+  .logostart {
+
+    top: -1000px;
+    opacity: 0;
+    position: absolute;
+    left: 50px;
+    z-index: -10;
+    transition: all 1s;
+  }
+
+
+   .logo {
+     position: absolute;
+    top: -150px;
+    left: 30px;
+    opacity: .71;
+    transition: all 1s;
+    width: 29%;
+    height: 29%;
+  }
+
+
+  .dropShadowstart {
+    top: 480px;
+    opacity: 0;
+    position: absolute;
+    left: -650px;
+    z-index: -10;
+    width: 50%;
+    height: 50%;
+    transition: all 1.9s;
+    box-shadow: 0 0 0;
+  }
+
+
+  .dropShadow {
+
+      position: absolute;
+      opacity: .8;
+      left: 460px;
+      top: 320px;
+      z-index: 100px;
+      width: 28%;
+      height: 58%;
+      background-color: #292929;
+      box-shadow: 10px 10px 10px #888888;
+      transition: all 2s;
+
+   }
+
+   .photoslandingstart {
+
+     position: absolute;
+     opacity: 0;
+     left: 1155px;
+     top: -700px;
+     z-index: 100px;
+     max-height: 300px;
+     max-width: 400px;
+
+   }
+
+  .photoslanding {
+
+    opacity: 1;
+    position: absolute;
+    left: 315px;
+    top: 240px;
+    z-index: 100px;
+    height: 30%;
+    width: 30%;
+    transition: all 1.4s;
+
+  }
 
 
 @media only screen and (min-width : 400px ) and ( max-width : 790px ) {
@@ -1542,9 +1716,9 @@ a {
 
   .headline {
 
-    font-size: 12px;
+    font-size: 11px;
     position: absolute;
-    left: 150px;
+    left: 140px;
     top: 89px;
     z-index: 100px;
     opacity:1 ;
@@ -1616,8 +1790,6 @@ a {
     position: absolute;
     left: -650px;
     z-index: -10;
-    max-width: 150px;
-    max-height: 150px;
     transition: all 1.9s;
     box-shadow: 0 0 0;
   }
@@ -1628,10 +1800,10 @@ a {
       position: absolute;
       opacity: .8;
       left: 120px;
-      top: 215px;
+      top: 180px;
       z-index: 100px;
-      width: 150px;
-      height: 250px;
+      height: 20%;
+      width: 30%;
       background-color: #292929;
       box-shadow: 10px 10px 10px #888888;
       transition: all 2s;
