@@ -4,9 +4,7 @@
 /* Fix to include padding and border in the total width for each element */
 * {
     box-sizing: border-box;
-      font-family: 'Roboto', sans-serif;
-
-
+    font-family: 'Roboto', sans-serif;
 }
 
 /* Fix for responsive images */
@@ -213,8 +211,8 @@ h4 {
   opacity: 0;
   position: absolute;
   z-index: -10;
-  max-width: 950px;
-  max-height: 950px;
+  max-width: 100%;
+  max-height: 100%;
   transition: all 1s;
   font-size: 24px;
   font-weight: 600;
@@ -232,10 +230,10 @@ h4 {
   padding-top: 40px;
   position: absolute;
   top: 430px;
-  left: 720px;
+  left: 700px;
   z-index: -10;
-  max-width: 550px;
-  max-height: 550px;
+  width: 33%;
+  height: 20%;
   opacity: 1;
   transition: all 1s;
 
@@ -254,12 +252,12 @@ h4 {
 
  .logo {
    position: absolute;
-  top: -160px;
+  top: -220px;
   left: 30px;
   opacity: .71;
   transition: all 1s;
-  width: 380px;
-  height: 400px;
+  width: 30%;
+  height: 30%;
 }
 
 
@@ -269,8 +267,8 @@ h4 {
   position: absolute;
   left: -650px;
   z-index: -10;
-  max-width: 450px;
-  max-height: 450px;
+  width: 50%;
+  height: 50%;
   transition: all 1.9s;
   box-shadow: 0 0 0;
 }
@@ -1261,11 +1259,10 @@ padding-bottom: 40px;
 	width: 40%;
 }
 
-/* The company logo */
 
 .footer-distributed h3{
 	color:  #ffffff;
-	font: normal 36px 'Cookie', cursive;
+	font: normal 36px 'roboto', cursive;
 	margin: 0;
 }
 
@@ -1408,7 +1405,9 @@ padding-bottom: 40px;
 }
 
 
-@media only screen and (min-width : 24px ) and ( max-width : 750px ){
+
+
+@media only screen and (min-width : 400px ) and ( max-width : 790px ) {
 
 
 /*navigation mobile wraped*/
@@ -1583,11 +1582,11 @@ a {
 
 
    .logo {
-    top: -40px;
+    top: -10px;
     opacity: .71;
     transition: all 1s;
-    max-width: 150px;
-    max-height: 150px;
+    max-width: 50%;
+    max-height: 50%;
   }
 
 
@@ -1634,7 +1633,7 @@ a {
   .photoslanding {
 
     opacity: 1;
-    position: absolute;
+    position: fixed;
     left: 80px;
     top: 140px;
     z-index: 100px;
