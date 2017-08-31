@@ -1489,14 +1489,14 @@ padding-bottom: 40px;
 
     position: absolute;
     top: 380px;
-    left: 650px;
+    left: 660px;
     z-index: -10;
     width: 35%;
     height: 15%;
     opacity: 1;
     transition: all 1s;
     background-color:#FFFFFF;
-    box-shadow: 10px 10px 100px #888887;
+    box-shadow: 10px 10px 10px #888887;
     padding-right: 30px;
     padding-bottom: 30px;
     font-size: 20px;
