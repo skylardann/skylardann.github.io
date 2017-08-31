@@ -2519,8 +2519,8 @@ a {
   flex-wrap: wrap;
   justify-content: space-between;
   margin-bottom: 20px;
-  margin-left: 0px;
-  margin-right: 10px;
+  margin-left: 10px;
+  margin-right: 0px;
 
  max-width: 400px;
 
