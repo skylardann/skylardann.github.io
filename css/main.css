@@ -2519,8 +2519,7 @@ a {
   flex-wrap: wrap;
   justify-content: space-between;
   margin-bottom: 20px;
-padding-left: 10px;
-padding-right: 10px;
+  margin: auto;
   max-width: 400px;
 
 
