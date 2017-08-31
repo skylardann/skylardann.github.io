@@ -391,8 +391,8 @@ width: 100%;
   font-size: 12px;
   margin-top: 10px;
   margin-bottom: 60px;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
   width: 400px;
   height: 400px;
 
@@ -1670,8 +1670,7 @@ padding-bottom: 40px;
   height: 400px;
   margin-top: 50px;
   margin-bottom: 100px;
-  padding-left: 20px;
-  padding-right: 20px;
+
 }
 
 
@@ -2318,8 +2317,7 @@ a {
   height: 400px;
   margin-top: 50px;
   margin-bottom: 100px;
-  padding-left: 5px;
-  padding-right: 5px;
+
 
 
 }
