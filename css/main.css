@@ -2200,10 +2200,10 @@ a {
       position: absolute;
       opacity: .8;
       left: 120px;
-      top: 150px;
+      top: 180px;
       z-index: 100px;
-      height: 30%;
-      width: 30%;
+      height: 150px;
+      width: 120px;
       background-color: #292929;
       box-shadow: 10px 10px 10px #888888;
       transition: all 2s;
