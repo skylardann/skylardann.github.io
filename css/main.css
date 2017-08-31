@@ -2479,8 +2479,10 @@ a {
 .image {
   display: inline-flex;
   object-fit: cover;
-  width: 100%;
+  width: 400px;;
   height: 240px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .overlay {
@@ -2495,6 +2497,7 @@ a {
   opacity: 0;
   transition: .5s ease;
   background-color: white;
+  max-width: 390px;
 }
 
 .containers:hover .overlay {
@@ -2519,9 +2522,8 @@ a {
   flex-wrap: wrap;
   justify-content: space-between;
   margin-bottom: 20px;
-  margin-left: 10px;
-  margin-right: 5px;
-
+  margin-left: -10px;
+  margin-right: -8px;
  max-width: 400px;
 
 
