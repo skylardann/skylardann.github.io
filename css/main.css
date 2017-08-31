@@ -1684,6 +1684,7 @@ padding-bottom: 40px;
   margin-top: 10px;
   margin-bottom: 60px;
   margin-left: 10px;
+  margin-right: 10px;
   width: 400px;
   height: 400px;
 
@@ -2518,8 +2519,8 @@ a {
   flex-wrap: wrap;
   justify-content: space-between;
   margin-bottom: 20px;
-  margin-left: -8px;
-  margin-right: 5px;
+padding-left: 10px;
+padding-right: 10px;
   max-width: 400px;
 
 
